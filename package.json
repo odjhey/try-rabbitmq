@@ -1,0 +1,16 @@
+{
+  "name": "try-rabbitmq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "<odjhey@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "publish": "node ./producer.js"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
